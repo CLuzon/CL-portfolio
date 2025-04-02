@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CLuzon Portfolio(home)</title>
+        <link rel="stylesheet" href="CSS/CHome.css">
+        <link rel="stylesheet" href="CSS/style.css">
+    </head>
+    <body class="body">
+        <header>
+            <div class="header-container">
+                <h1>ようこそ</h1>
+            </div>
+        </header>
+        <main>
+            <div class="main-container">
+                <table class="homeTable" cellpadding="5" cellspacing="0" id="homeTable">
+                    <tr data-page="Pages/introduction.html">
+                        <td>Introduction</td>
+                        <td><p>わたしは「CLuzon(クルソン)」と申します</p>
+                            <p>わたしについて紹介します</p>
+                        </td>
+                    </tr>
+                    <tr data-page="Pages/project.html">
+                        <td>Project</td>
+                        <td>
+                            <p>Web学習をしています。</p>
+                            <p>わたしの行う計画を載せます</p>
+                        </td>
+                    </tr>
+                    <tr data-page="Pages/report.html">
+                        <td>Report</td>
+                        <td><p>活動報告です</p></td>
+                    </tr>
+                    <tr data-page="Pages/news.html">
+                        <td>News</td>
+                        <td>
+                            <p>わたしにとっての大きなニュースを載せます</p>
+                            <p>例えば、世界ニュースについてわたしの意見を載せるかもしれません</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <button id="goBackButton" onclick="goBack()">go back🔙</button>
+        </main>
+        <script src="JS/JHome.js"></script>
+    </body>
