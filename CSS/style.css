@@ -1,14 +1,12 @@
 .header-container {
-    font-family: Tahoma;
+    font-family: Garamond;
     padding: 0px;
-    font-size: 28px;
+    font-size: 36px;
     padding-left: 0px;
     position: relative;
     top: 0px;
-    width: 90%;
-    height: 150%;
 }
-.main-container {
+.index-main-container {
     font-family: Tahoma;
     padding: 1px;
     font-size: 28px;
@@ -29,5 +27,27 @@
     font-size: 14px;
     padding-left: 0px;
     position: fixed;
-    bottom: 0;
+    bottom: 5%;
+}
+#gohomeButton {
+    background-color: #29292afa;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+#gohomeButton:hover {
+    font-size: 18px;
+    transition: 0.1s;
+}
+.page-back {
+    position:absolute;
+    bottom:5%;
+    right:5%;
 }
